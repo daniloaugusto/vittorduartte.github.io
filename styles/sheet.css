@@ -55,3 +55,7 @@ p.social a:hover{
 .publicacao-sobre p{
   text-align: justify;
 }
+
+blockquote.publicacao{
+  text-align: justify;
+}
