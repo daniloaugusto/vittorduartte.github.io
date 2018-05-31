@@ -2,11 +2,18 @@
   font-family: 'Roboto Slab', serif;
 }
 
-.hero.is-primary.is-medium.is-bold{
+.hero.is-primary.is-medium.is-bold.index{
   background: linear-gradient(
       rgba(0, 0, 0, 0.5),
       rgba(0, 0, 0, 0.5)
     ), url("../images/image.jpg") no-repeat center center fixed;
+}
+
+.hero.is-primary.is-medium.is-bold.publicacao{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/image2.jpg") no-repeat center center fixed;
 }
 
 h1.title.sobre{
@@ -23,6 +30,10 @@ p.social a{
   margin: 0px 5px 0px 5px;
 }
 
+p.social a:hover{
+  color: rgb(11, 115, 48);
+}
+
 .content.keynotes{
   font-size: 20px;
   text-align: justify;
@@ -32,8 +43,15 @@ p.social a{
   justify-content: center;
 }
 
-img.partner{
-  margin-left: auto;
-  margin-right: auto;
+.partner-list img{
   margin: 1.6%;
+}
+
+.publicacao-sobre {
+  margin-top:1.6%;
+  margin-bottom:1.6%;
+}
+
+.publicacao-sobre p{
+  text-align: justify;
 }
