@@ -16,6 +16,13 @@
     ), url("../images/image2.jpg") no-repeat center center fixed;
 }
 
+.hero.is-primary.is-medium.is-bold.programacao{
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    ), url("../images/image3.jpeg") no-repeat center center fixed;
+}
+
 h1.title.sobre{
   font-family: 'Roboto Slab', serif;
   color: #ffff;
